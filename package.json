@@ -1,0 +1,16 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Mario Moltó Garí",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electorn": "^0.0.1-security",
+    "electron": "^33.4.6"
+  }
+}
