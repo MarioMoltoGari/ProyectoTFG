@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-=======
+/* Estilos generales */
 html, body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +6,6 @@ html, body {
     overflow: hidden;
     background-color: #dfdfdf5e;
     height: 100%;
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .menu-container {
@@ -24,11 +17,8 @@ html, body {
 }
 
 .menu-button {
-<<<<<<< HEAD
     background-color: #a3a3a3;
-=======
     background-color: #696969; /* Gris oscuro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     color: white;
     padding: 10px;
     border: none;
@@ -45,11 +35,8 @@ html, body {
 }
 
 .menu-cabecera {
-<<<<<<< HEAD
     background-color: #a3a3a3;
-=======
     background-color: #696969; /* Gris oscuro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     color: white;
     display: flex;
     justify-content: center; /* Centrar el contenido horizontalmente */
@@ -71,11 +58,8 @@ html, body {
     left: -250px;
     width: 250px;
     height: 100vh;
-<<<<<<< HEAD
     background-color: white;
-=======
     background-color: #d3d3d3; /* Gris claro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: left 0.3s ease-in-out;
@@ -84,11 +68,6 @@ html, body {
     padding-top: 0; /* Eliminar padding superior */
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 .dropdown a {
     padding: 15px;
     text-decoration: none;
@@ -105,11 +84,8 @@ html, body {
 }
 
 .dropdown a:hover {
-<<<<<<< HEAD
-    background-color: #c8c8c8;
-=======
+    background-color: #c8c8c8; /* Gris claro */
     background-color: #a9a9a9; /* Gris oscuro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     font-size: 15px;
     font-weight: bold;
 }
@@ -128,11 +104,8 @@ html, body {
 }
 
 .botonPlayTest {
-<<<<<<< HEAD
-    background-color: #a3a3a3;
-=======
+    background-color: #a3a3a3; /* Gris oscuro */
     background-color: #696969; /* Gris oscuro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     border: none;
     color: white;
     padding: 5px 15px;
@@ -145,11 +118,8 @@ html, body {
 }
 
 .botonPlayTest:hover {
-<<<<<<< HEAD
-    background-color: #837f7f;
-=======
+    background-color: #837f7f; /* Gris más oscuro */
     background-color: #505050; /* Gris más oscuro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .botonPlayTest .icon {
@@ -185,11 +155,8 @@ html, body {
 }
 
 .context-menu ul li:hover {
-<<<<<<< HEAD
     background-color: #a3a3a3;
-=======
     background-color: #696969; /* Gris oscuro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .context-menu ul li button {
@@ -205,26 +172,18 @@ html, body {
 }
 
 .context-menu ul li button:hover {
-<<<<<<< HEAD
-    background-color: #f0f0f0;
-=======
+    background-color: #f0f0f0; /* Gris claro */
     background-color: #d3d3d3; /* Gris claro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .context-menu .botonMenuContextual:hover {
     color: rgb(255, 255, 255);
-<<<<<<< HEAD
     background-color: #a3a3a3;
-=======
     background-color: #696969; /* Gris oscuro */
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .context-menu .icon {
     font-size: 20px;
-<<<<<<< HEAD
-=======
 }
 
 .login-container {
@@ -418,5 +377,4 @@ html, body {
 .buttons-container {
     display: flex;
     justify-content: space-between;
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }

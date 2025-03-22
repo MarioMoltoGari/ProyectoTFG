@@ -1,16 +1,9 @@
 // Función para desplegar y contraer el menú
 function toggleMenu() {
-<<<<<<< HEAD
-    const menu = document.getElementById("dropdown-menu");
-    const buttonContainer = document.getElementById("menu-container");
-    menu.classList.toggle("show");
-    buttonContainer.classList.toggle("show");
-=======
     const menuContainer = document.getElementById('menu-container');
     const dropdownMenu = document.getElementById('dropdown-menu');
     menuContainer.classList.toggle('show');
     dropdownMenu.classList.toggle('show');
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 // Función para mostrar el menú contextual
@@ -36,9 +29,6 @@ document.querySelectorAll('.test-link').forEach(link => {
 });
 
 // Ocultar el menú contextual al hacer clic en cualquier lugar de la página
-<<<<<<< HEAD
-document.addEventListener('click', hideContextMenu);
-=======
 document.addEventListener('click', hideContextMenu);
 
 function openModal() {
@@ -59,4 +49,3 @@ window.onclick = function(event) {
         modal.style.display = 'none';
     }
 }
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
