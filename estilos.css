@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+=======
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dfdfdf5e;
+    height: 100%;
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .menu-container {
@@ -14,7 +24,11 @@ body {
 }
 
 .menu-button {
+<<<<<<< HEAD
     background-color: #a3a3a3;
+=======
+    background-color: #696969; /* Gris oscuro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     color: white;
     padding: 10px;
     border: none;
@@ -31,7 +45,11 @@ body {
 }
 
 .menu-cabecera {
+<<<<<<< HEAD
     background-color: #a3a3a3;
+=======
+    background-color: #696969; /* Gris oscuro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     color: white;
     display: flex;
     justify-content: center; /* Centrar el contenido horizontalmente */
@@ -53,7 +71,11 @@ body {
     left: -250px;
     width: 250px;
     height: 100vh;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #d3d3d3; /* Gris claro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: left 0.3s ease-in-out;
@@ -62,8 +84,11 @@ body {
     padding-top: 0; /* Eliminar padding superior */
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 .dropdown a {
     padding: 15px;
     text-decoration: none;
@@ -80,7 +105,11 @@ body {
 }
 
 .dropdown a:hover {
+<<<<<<< HEAD
     background-color: #c8c8c8;
+=======
+    background-color: #a9a9a9; /* Gris oscuro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     font-size: 15px;
     font-weight: bold;
 }
@@ -99,7 +128,11 @@ body {
 }
 
 .botonPlayTest {
+<<<<<<< HEAD
     background-color: #a3a3a3;
+=======
+    background-color: #696969; /* Gris oscuro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
     border: none;
     color: white;
     padding: 5px 15px;
@@ -112,7 +145,11 @@ body {
 }
 
 .botonPlayTest:hover {
+<<<<<<< HEAD
     background-color: #837f7f;
+=======
+    background-color: #505050; /* Gris más oscuro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .botonPlayTest .icon {
@@ -148,7 +185,11 @@ body {
 }
 
 .context-menu ul li:hover {
+<<<<<<< HEAD
     background-color: #a3a3a3;
+=======
+    background-color: #696969; /* Gris oscuro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .context-menu ul li button {
@@ -164,14 +205,218 @@ body {
 }
 
 .context-menu ul li button:hover {
+<<<<<<< HEAD
     background-color: #f0f0f0;
+=======
+    background-color: #d3d3d3; /* Gris claro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .context-menu .botonMenuContextual:hover {
     color: rgb(255, 255, 255);
+<<<<<<< HEAD
     background-color: #a3a3a3;
+=======
+    background-color: #696969; /* Gris oscuro */
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
 
 .context-menu .icon {
     font-size: 20px;
+<<<<<<< HEAD
+=======
+}
+
+.login-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1003;
+}
+
+.login-button {
+    background-color: #696969; /* Gris oscuro */
+    color: white;
+    padding: 5px 10px; /* Reducir el padding */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+}
+
+.login-button:hover {
+    background-color: #505050; /* Gris más oscuro */
+}
+
+.menu-button:hover {
+    background-color: #505050; /* Gris más oscuro */
+}
+
+.title-container {
+    display: flex;
+    justify-content: center; /* Alinear a la derecha */
+    margin-top: 70px; /* Añadir margen superior */
+    height: 100vh;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+    width: 100%;
+    padding-right: 20px; /* Espacio a la derecha */
+    box-sizing: border-box;
+}
+
+.main-title {
+    font-size: 36px;
+    color: #696969; /* Gris oscuro */
+}
+
+.menu-container.show ~ .title-container {
+    width: calc(100% + 250px); /* Ajustar el ancho del contenedor del título */
+}
+
+/* Estilos para el footer */
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #696969; /* Gris oscuro */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    z-index: 1000;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-networks button {
+    background-color: #696969; /* Gris oscuro */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.social-networks button:hover {
+    background-color: #505050; /* Gris más oscuro */
+}  
+
+.about button {
+    background-color: #696969; /* Gris oscuro */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.about button:hover {
+    background-color: #505050; /* Gris más oscuro */
+}
+
+/* Estilos para el modal de iniciar sesión */
+.login-modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed;
+    z-index: 1004;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+}
+
+.login-modal-content {
+    background-color: #2f2f2f; /* Gris muy oscuro */
+    margin: 15% auto; /* Centrar el modal verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del modal */
+    max-width: 400px; /* Ancho máximo del modal */
+    border-radius: 10px;
+    color: white;
+}
+
+.login-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #505050; /* Gris más oscuro */
+    padding-bottom: 10px;
+}
+
+.login-modal-header h2 {
+    margin: 0;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.login-modal-body {
+    margin-top: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d3d3d3; /* Gris claro */
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #505050; /* Gris más oscuro */
+    border-radius: 5px;
+    background-color: #3f3f3f; /* Gris oscuro */
+    color: white;
+}
+
+.input-container input:focus {
+    border-color: #696969; /* Gris oscuro */
+    outline: none;
+}
+
+.login-modal .login-button {
+    background-color: #696969; /* Gris oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 40%;
+}
+
+.login-modal .register-button {
+    background-color: #696969; /* Gris oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 40%;
+}
+
+.login-modal .login-button .register-button:hover {
+    background-color: #505050; /* Gris más oscuro */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+>>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
 }
