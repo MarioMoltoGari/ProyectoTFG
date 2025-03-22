@@ -15,9 +15,12 @@
     </div>
     <div class="dropdown" id="dropdown-menu">
         <div class="menu-cabecera">Mis Tests</div>
-        <a href="#" class="test-link">Test De Inglés <button class="botonPlayTest"><span class="icon icon-play"></span></button></a>
-        <a href="#" class="test-link">Test De Música <button class="botonPlayTest"><span class="icon icon-play"></span></button></a>
-        <a href="#" class="test-link">Test De História <button class="botonPlayTest"><span class="icon icon-play"></span></button></a>
+        <a href="#" class="test-link">Test De Inglés <button class="botonPlayTest"><span
+                    class="icon icon-play"></span></button></a>
+        <a href="#" class="test-link">Test De Música <button class="botonPlayTest"><span
+                    class="icon icon-play"></span></button></a>
+        <a href="#" class="test-link">Test De História <button class="botonPlayTest"><span
+                    class="icon icon-play"></span></button></a>
     </div>
 
     <!-- Menú contextual -->
@@ -48,7 +51,8 @@
         <div class="login-modal-content">
             <div class="login-modal-header">
                 <h2>Iniciar Sesión</h2>
-                <button class="close-button" onclick="closeModal()"><span class="icon icon-cancel-circled"></span></button>
+                <button class="close-button" onclick="closeModal()"><span
+                        class="icon icon-cancel-circled"></span></button>
             </div>
             <div class="login-modal-body">
                 <form action="">
@@ -63,6 +67,48 @@
                     <div class="buttons-container">
                         <button type="submit" class="login-button">Iniciar Sesión</button>
                         <button type="button" class="register-button" onclick="openRegisterModal()">Registrarse</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal de Registro -->
+    <div class="register-modal" id="register-modal">
+        <div class="register-modal-content">
+            <div class="register-modal-header">
+                <h2>Registrarse</h2>
+                <button class="close-button" onclick="closeRegisterModal()"><span
+                        class="icon icon-cancel-circled"></span></button>
+            </div>
+            <div class="register-modal-body">
+                <form action="">
+                    <div class="input-container">
+                        <label for="full-name">Nombre Completo</label>
+                        <input type="text" name="full-name" id="full-name" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="birth-date">Fecha de Nacimiento</label>
+                        <input type="date" name="birth-date" id="birth-date" required>
+                    </div>
+                    <div class="checkbox-container">    
+                        <label for="is-teacher">¿Eres profesor/a?</label>
+                        <input type="checkbox" name="is-teacher" id="is-teacher">
+                    </div>
+                    <div class="input-container">
+                        <label for="usage-intention">Intención de Uso</label>
+                        <select name="usage-intention" id="usage-intention" required>
+                            <option value="private">Uso Privado</option>
+                            <option value="education">Educación</option>
+                            <option value="business">Ámbito de Empresa</option>
+                        </select>
+                    </div>
+                    <div class="buttons-container">
+                        <button type="submit" class="register-button">Registrarse</button>
+                        <button type="button" class="cancel-button" onclick="closeRegisterModal()">Cancelar</button>
                     </div>
                 </form>
             </div>

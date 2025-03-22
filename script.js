@@ -1,4 +1,4 @@
-// Función para desplegar y contraer el menú
+// Función para desplegar y contraer el menú lateral
 function toggleMenu() {
     const menuContainer = document.getElementById('menu-container');
     const dropdownMenu = document.getElementById('dropdown-menu');
@@ -6,7 +6,7 @@ function toggleMenu() {
     dropdownMenu.classList.toggle('show');
 }
 
-// Función para mostrar el menú contextual
+// Función para mostrar el menú contextual del menú de 
 function showContextMenu(event) {
     event.preventDefault();
     const contextMenu = document.getElementById("context-menu");
@@ -47,5 +47,22 @@ window.onclick = function(event) {
     const modal = document.getElementById('login-modal');
     if (event.target == modal) {
         modal.style.display = 'none';
+    }
+}
+
+// Funciones del modal de registro
+function openRegisterModal() {
+    document.getElementById('register-modal').style.display = 'block';
+}
+
+function closeRegisterModal() {
+    document.getElementById('register-modal').style.display = 'none';
+}
+
+// Cerrar el modal de registro cuando se hace clic fuera del contenido del modal
+window.onclick = function(event) {
+    const registerModal = document.getElementById('register-modal');
+    if (event.target == registerModal) {
+        registerModal.style.display = 'none';
     }
 }

@@ -11,11 +11,7 @@
   "description": "",
   "dependencies": {
     "electorn": "^0.0.1-security",
-<<<<<<< HEAD
-    "electron": "^33.4.6"
-=======
     "electron": "^33.4.6",
     "git": "^0.1.5"
->>>>>>> bb5f9e1 (Primer modal de inicio de sesión 22/03/2025)
   }
 }

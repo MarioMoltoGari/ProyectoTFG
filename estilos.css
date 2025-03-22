@@ -378,3 +378,126 @@ html, body {
     display: flex;
     justify-content: space-between;
 }
+
+/* Estilos para el modal de registro */
+.register-modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed;
+    z-index: 1004;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+}
+
+.register-modal-content {
+    background-color: #2f2f2f; /* Gris muy oscuro */
+    margin: 10% auto; /* Centrar el modal verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del modal */
+    max-width: 400px; /* Ancho máximo del modal */
+    border-radius: 10px;
+    color: white;
+}
+
+.register-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #505050; /* Gris más oscuro */
+    padding-bottom: 10px;
+}
+
+.register-modal-header h2 {
+    margin: 0;
+}
+
+.register-modal .close-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.register-modal-body {
+    margin-top: 20px;
+}
+
+.register-modal .input-container {
+    margin-bottom: 15px;
+}
+
+.register-modal .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d3d3d3; /* Gris claro */
+}
+
+.register-modal .input-container input,
+.register-modal .input-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #505050; /* Gris más oscuro */
+    border-radius: 5px;
+    background-color: #3f3f3f; /* Gris oscuro */
+    color: white;
+}
+
+.register-modal .input-container input:focus,
+.register-modal .input-container select:focus {
+    border-color: #696969; /* Gris oscuro */
+    outline: none;
+}
+
+.register-modal .buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-modal .register-button,
+.register-modal .cancel-button {
+    background-color: #696969; /* Gris oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 48%;
+}
+
+.register-modal .input-container.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.register-modal .input-container.checkbox-container label {
+    margin-left: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.register-modal .register-button:hover,
+.register-modal .cancel-button:hover {
+    background-color: #505050; /* Gris más oscuro */
+}
+
+.checkbox-container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.checkbox-container label {
+    margin: 0px !important;
+}
+
+.checkbox-container input {
+    margin-top: 0px !important;
+    margin-left: 20px!important;
+}
